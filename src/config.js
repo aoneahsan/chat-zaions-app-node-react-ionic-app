@@ -4,4 +4,5 @@ export default {
   appName: 'Chat', // App Name
   showCredits: true, // Show credits in login page
   url: 'http://localhost:4000'
+  // url: 'https://chat-zaions-backend.herokuapp.com'
 }

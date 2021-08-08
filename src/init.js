@@ -11,9 +11,9 @@ const init = async () => {
         e.preventDefault();
     });
 
-    if (localStorage.getItem('app') !== 'Chat Zaions 2.x.x') {
+    if (localStorage.getItem('app') !== 'Chat Zaions') {
         localStorage.clear();
-        localStorage.setItem('app', 'Chat Zaions 2.x.x');
+        localStorage.setItem('app', 'Chat Zaions');
     }
 
     let token = localStorage.getItem('token');
