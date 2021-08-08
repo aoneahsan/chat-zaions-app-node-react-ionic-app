@@ -1,7 +1,11 @@
 {
-  "name": "Chat Zaions",
+  "name": "chat-zaions",
   "version": "1.0.0",
+  "description": "Chat Zaions Backend - Zaions.com aoneahsan.website - developed by Ahsan Mahmood @ Zaions.",
   "private": true,
+  "engines": {
+    "node": "12.22.1"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
