@@ -1,7 +1,7 @@
 require('colors');
 
-console.log(`${'Honeyside'.yellow} © ${'2020'.yellow}`);
-console.log(`Welcome to ${'Clover'.cyan}`);
+console.log(`${'Ahsan Mahmood @ Zaions.com'.yellow} © ${'2020'.yellow}`);
+console.log(`Welcome to ${'Chat Zaions'.cyan}`);
 
 const express = require('express');
 const app = express();

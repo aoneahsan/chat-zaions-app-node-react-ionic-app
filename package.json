@@ -1,21 +1,25 @@
 {
-  "name": "clover",
-  "version": "2.4.0",
-  "description": "WebRTC conferencing platform.",
+  "name": "chat-zaions-backend",
+  "version": "1.0.0",
   "main": "index.js",
+  "description": "Chat Zaions Backend - Zaions.com aoneahsan.website - developed by Ahsan Mahmood @ Zaions.",
+  "private": true,
+  "engines": {
+    "node": "12.22.1"
+  },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheRav3n/Clover.git"
+    "url": "git+https://github.com/ahsanmahmood/chat-zaions-app-node-react-ionic-app.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TheRav3n/Clover/issues"
+    "url": "https://github.com/ahsanmahmood/chat-zaions-app-node-react-ionic-app/issues"
   },
-  "homepage": "https://github.com/TheRav3n/Clover#readme",
+  "homepage": "https://github.com/ahsanmahmood/chat-zaions-app-node-react-ionic-app#readme",
   "dependencies": {
     "argon2": "^0.27.0",
     "bluebird": "^3.7.1",
