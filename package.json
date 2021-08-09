@@ -5,7 +5,7 @@
   "description": "Chat Zaions Backend - Zaions.com aoneahsan.website - developed by Ahsan Mahmood @ Zaions.",
   "private": true,
   "engines": {
-    "node": "12.22.1"
+    "node": "14.15.3"
   },
   "scripts": {
     "start": "node index.js"
