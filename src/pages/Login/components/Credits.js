@@ -1,22 +1,7 @@
 import React from 'react'
-import { useGlobal } from 'reactn'
 import Config from '../../../config'
 
-const Credits = () => (
-  <span>
-    {' '}
-    -{' '}
-    <a
-      data-uk-tooltip='Special thanks and open source resources in use'
-      data-uk-toggle='target: .toggle-credits ;animation: uk-animation-fade'
-    >
-      Credits
-    </a>
-  </span>
-)
-
 const Copyright = () => {
-  const version = useGlobal('version')[0]
   return (
     <div
       id='copyright'

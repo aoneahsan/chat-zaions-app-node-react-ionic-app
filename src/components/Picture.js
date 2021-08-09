@@ -4,7 +4,7 @@ import React from "react";
 const Picture = ({user = {}, group = false, picture, title = "Group"}) => {
     if (group) {
         if (picture)
-            return <img src={`${Config.url || ''}/api/images/${picture.shieldedID}/256`} alt="Picture" className="picture"/>;
+            return <img src={`${Config.url || ''}/api/images/${picture.shieldedID}/256`} alt="zaions.com" className="picture"/>;
         else
             return <div className="img">{title.substr(0,1).toUpperCase()}</div>;
     }

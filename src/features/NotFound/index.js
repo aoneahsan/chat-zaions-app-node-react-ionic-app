@@ -5,7 +5,6 @@ import BottomBar from "./components/BottomBar";
 import "./NotFound.sass";
 
 const NotFound = () => {
-    const user = useGlobal('user')[0];
     const setOver = useGlobal('over')[1];
 
     const back = () => setOver(false);

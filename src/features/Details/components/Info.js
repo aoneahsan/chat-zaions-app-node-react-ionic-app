@@ -2,11 +2,8 @@ import React from "react";
 import './Info.sass';
 import logo from '../../../assets/logo.png';
 import Config from '../../../config';
-import {useGlobal} from "reactn";
 
 const Info = () => {
-    const version = useGlobal('version')[0];
-
     return (
         <div className="info">
             <div className="top">
