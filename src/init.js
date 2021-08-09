@@ -110,7 +110,6 @@ module.exports = () => {
             useNewUrlParser: true,
             useFindAndModify: false,
             useUnifiedTopology: true,
-            ssl: false,
         })
             .then(() => {
                 clearTimeout(connecting);

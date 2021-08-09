@@ -2,8 +2,7 @@ module.exports = {
     port: 4000,
     secret: 'zaions.com-aoneahsan.website---chat-app',
     // db: 'mongodb://localhost:27017/chat-app',
-    // db: 'mongodb+srv://chat-zaions-aoneahsan-haha:chat-zaions-aoneahsan-hehe@cluster0.ndvjs.mongodb.net/chat-zaions?retryWrites=true',
-    db: 'mongodb+srv://perkforcev3:perkforcev3_pw_14042021@cluster0.mshoc.mongodb.net/test',
+    db: 'mongodb+srv://chat-zaions-aoneahsan-haha:chat-zaions-aoneahsan-hehe@cluster0.ndvjs.mongodb.net/chat-zaions?retryWrites=true',
     dataFolder: './data',
     admin: {
         username: 'aoneahsan-zaions',

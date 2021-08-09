@@ -2,8 +2,8 @@ module.exports = {
     port: 80,
     retryAfter: 10000,
     secret: 'zaions.com-aoneahsan.website---chat-app',
-    db: 'mongodb://localhost:27017/chat-app',
-    // db: 'mongodb+srv://chat-zaions-aoneahsan-haha:chat-zaions-aoneahsan-hehe@cluster0.ndvjs.mongodb.net/chat-zaions?retryWrites=true',
+    // db: 'mongodb://localhost:27017/chat-app',
+    db: 'mongodb+srv://chat-zaions-aoneahsan-haha:chat-zaions-aoneahsan-hehe@cluster0.ndvjs.mongodb.net/chat-zaions?retryWrites=true',
     dataFolder: './data',
     admin: {
         username: 'aoneahsan-zaions',
